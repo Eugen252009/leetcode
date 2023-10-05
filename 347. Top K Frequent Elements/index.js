@@ -5,7 +5,6 @@ export function func(...a) {
 }
 
 function topKFrequent(nums, k) {
-    console.log({ nums, k })
     const data = {}
     nums.forEach(element => {
         if (data[element] == null)

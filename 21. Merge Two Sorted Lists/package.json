@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "node --test --watch .",
-		"start": "ts-node index.ts"
+		"start": "node index.js"
 	},
 	"keywords": [],
 	"type": "module",
@@ -16,10 +16,10 @@
 		"@jest/globals": "^29.7.0",
 		"@types/jest": "^29.5.4",
 		"jest": "^29.6.4",
+		"node:test": "link:@types/node:test",
 		"ts-jest": "^29.1.1"
 	},
 	"dependencies": {
-		"@types/node": "^20.5.7",
-		"node:test": "link:@types/node:test"
+		"@types/node": "^20.5.7"
 	}
 }
